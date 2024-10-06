@@ -1,0 +1,111 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+
+
+#experience-section {
+
+  font-size: 18px;
+}
+
+.intro {
+  height: 100vh; 
+}
+
+.full-screen-image {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover; 
+
+}
+
+.nav-item {
+    font-size: 17px;
+  }
+
+
+/* Paragraph styling */
+p::first-letter {
+    font-size: 25px;
+    color: #cd83f2;
+    font-weight: bold;
+}
+
+p::first-line {
+    font-style: italic;
+    color: #cd83f2;
+}
+
+/* Body */
+body { 
+    background-color: white;
+
+
+}
+
+/* Heading 1 */
+h1 {
+    font-style: normal;
+    font-size: 40px;
+    color: #f5aca8;
+}
+
+/* Heading 2*/
+h2 {
+    font-family: "Kalnia Glaze", serif;
+  font-style: normal;
+    color:#4a8f83;
+    font-style: normal;
+    font-size: 30px;
+}
+
+/* Heading 3 */
+h3 { 
+  font-size: 20px;
+    color: darkslategray;
+}
+
+/* Links*/
+a:link {
+    color: darkblue;
+}
+
+a:visited {
+    color: darkturquoise;
+}
+
+a:focus {
+    outline: 1px blueviolet;
+}
+
+a:hover {
+    color: rebeccapurple;
+    text-decoration: underline;
+}
+
+a:active {
+    color: darkgreen;
+}
+
+/* List styling */
+ul { 
+    list-style-image: url("bread.png");
+}
+
+/* Contact */
+.contact-section { 
+    background-attachment: fixed;
+    background-color: rgba(238, 130, 238, 0.2); 
+    padding: 20px;
+}
+
+/* Skills */
+.skills-list li { 
+    margin-left: 10px; 
+    line-height: 1.5;
+}
